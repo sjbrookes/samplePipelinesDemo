@@ -11,7 +11,7 @@ build:
 
 integrations:
   hub:
-    - integrationName: "shipdeploy"
+    - integrationName: "samplePipelineDemoIntegration"
       type: docker
 #  notifications:
 #    - integrationName: "triggerPipelinesDemo"
