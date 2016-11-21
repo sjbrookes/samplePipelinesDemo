@@ -14,7 +14,7 @@ integrations:
     - integrationName: "DockerHubIntegration"
       type: docker
   notifications:
-    - integrationName: "TriggerDemoPipeline"
+    - integrationName: "TriggerMyDemoPipeline"
       type: webhook
       payload:
         - versionName=$BRANCH.$BUILD_NUMBER
