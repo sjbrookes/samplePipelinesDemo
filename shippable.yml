@@ -13,10 +13,10 @@ integrations:
   hub:
     - integrationName: "DockerHubIntegration"
       type: docker
-  notifications:
-    - integrationName: "TriggerMyDemoPipeline"
-      type: webhook
-      payload:
-        - versionName=$BRANCH.$BUILD_NUMBER
-      on_success: always
-      on_failure: never
+#  notifications:
+#    - integrationName: "TriggerMyDemoPipeline"
+#      type: webhook
+#      payload:
+#        - versionName=$BRANCH.$BUILD_NUMBER
+#      on_success: always
+#      on_failure: never
